@@ -121,7 +121,7 @@ if submitted:
 # -------------------------------
 # ✅ LOAD YOLO MODEL
 # -------------------------------
-MODEL_PATH = r"C:\Users\raara\runs\detect\train7\weights\best.pt"
+MODEL_PATH = r"\best.pt"
 model = YOLO(MODEL_PATH)
 
 # -------------------------------
