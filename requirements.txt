@@ -1,7 +1,9 @@
-ultralytics
+ultralytics==8.1.0
 torch
 torchvision
 opencv-python-headless
-Pillow
-numpy
 streamlit
+pillow
+pandas
+numpy
+matplotlib
