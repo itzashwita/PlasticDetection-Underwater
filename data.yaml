@@ -1,0 +1,13 @@
+train: ../YOLO Formet/train/images
+val: ../YOLO Formet/valid/images
+test: ../YOLO Formet/train/images
+
+nc: 7
+names: ['Cable', 'E-waste', 'Glass', 'Medical Waste', 'Metal', 'Plastics', 'can']
+
+roboflow:
+  workspace: code2gether
+  project: west-classification-gfnpa
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/code2gether/west-classification-gfnpa/dataset/3
