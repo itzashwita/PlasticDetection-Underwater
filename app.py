@@ -121,7 +121,7 @@ if submitted:
 # -------------------------------
 # ✅ LOAD YOLO MODEL
 # -------------------------------
-MODEL_PATH = .\best.pt
+MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 # -------------------------------
